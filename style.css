@@ -224,6 +224,7 @@ nav{
    border-radius: 16px;
    text-align: center;
    overflow: hidden;
+   background-color: white;
 }
 .box-content h3{
     padding: 0px 37px;
@@ -266,23 +267,57 @@ nav{
     text-align: left;
 }
 
-.box {
+.story {
     background: #fff;
-    border-radius: 12px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     position: relative; 
     overflow: hidden; 
-  }
-  
-  .box::before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 500px;
+   background-image: url("assets/bg.png");
     background: linear-gradient(to top, #FFD488, transparent);
-    z-index: 0;
+
+  }
+
+  .view{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 61px;
+    background-color: black;
+    color: white;
+    margin: 80px 0px;
+    border-radius: 12px;
+
+  }
+  .view-btn{
+    text-align: center;   
+  }
+
+  /* footer section */
+
+  footer{
+    display: flex;
+    padding: 123px 140px;
+    justify-content: space-between;
+    background-color: #01ACFD;
+  }
+  .footer-div1{
+    display: grid;
+    color: white;
+  }
+  .footer-div1 a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+  }
+
+  .footer-div2{
+    display: flex;
+  }
+  .keep{
+    color: white;
+  }
+
+  .footer-des{
+    max-width: 400px;
   }
 
 @media screen and (max-width: 576px) {
