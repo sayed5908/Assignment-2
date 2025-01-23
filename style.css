@@ -85,4 +85,21 @@ nav{
         height: 46px;
         width: 46px;
     }
+    .empower{
+        flex-direction: column-reverse;
+        margin: 0px 17px;
+        text-align: center;
+    }
+    .empower-head{
+        font-size: 32px;
+    }
+    .empower-content{
+        height: 252px;
+        width: 357px;
+        margin: 0px 17px;
+    }
+    .empower-img img{
+        height: 413px;
+        width: 336px;
+    }
 }
