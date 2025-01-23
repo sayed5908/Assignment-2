@@ -21,7 +21,7 @@ nav{
 .nav-link{
     text-decoration: none;
     list-style: none;
-    
+    padding: 1em;
     font-size: 20px;
     font-weight: 500;
 }
@@ -191,7 +191,99 @@ nav{
     margin: 10px;
     border: none;
     background-color: #F0AA00;
+    margin-bottom: 60px;
 }
+.btn-img{
+    width: 50%;
+    height: 40%;
+}
+
+/* story section */
+
+.story-head{
+    font-size: 46px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+
+}
+
+.box{
+    display: flex;
+    margin: 0px 140px;
+    gap: 19px;
+}
+.box-second{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.box-content{
+    box-shadow: inset 0 8px 20px rgba(0, 0, 0, 0.1);
+   border-radius: 16px;
+   text-align: center;
+   overflow: hidden;
+}
+.box-content h3{
+    padding: 0px 37px;
+    text-align: left;
+}
+.box-content img{
+    width: 100%;
+}
+.box-btn{
+    padding: 14px 19px;
+    border-radius: 47px;
+    border: none;
+    background-color: #95B226;
+    color: white;
+    margin-top: -15px;
+    font-size: 15px; 
+}
+.box-btn1{
+    padding: 14px 19px;
+    border-radius: 47px;
+    border: none;
+    background-color: #3CD8E8;
+    color: white;
+    margin-top: -15px;
+    font-size: 15px;
+}
+.box-btn2{
+    padding: 14px 19px;
+    border-radius: 47px;
+    border: none;
+    background-color: #5D58F0;
+    color: white;
+    margin-top: -15px;
+    font-size: 15px;
+}
+.box-p{
+    font-size: 15px;
+    font-weight: 400px;
+    padding: 0rem 2.3rem;
+    text-align: left;
+}
+
+.box {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    position: relative; 
+    overflow: hidden; 
+  }
+  
+  .box::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 500px;
+    background: linear-gradient(to top, #FFD488, transparent);
+    z-index: 0;
+  }
 
 @media screen and (max-width: 576px) {
     .nav-links, .nav-btn, .nav-logo h1{
@@ -231,5 +323,8 @@ nav{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         margin: 0px;
+    }
+    .curriculum-btn{
+        display: none;
     }
 }
